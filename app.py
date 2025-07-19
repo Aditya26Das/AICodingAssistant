@@ -16,8 +16,8 @@ else:
     st.stop()
 
 client = genai.Client()
-st.set_page_config(page_title="🧠 AI Coding Assistant", layout="wide")
-st.title("🧠 AI Coding Assistant")
+st.set_page_config(page_title="🧠 AI Powered Code Writer", layout="wide")
+st.title("🧠 AI Powered Code Writer")
 st.markdown("Generate code in your favorite language using Gemini 2.5 Pro")
 language = st.selectbox("Choose a programming language:", ["python", "c++", "java", "javascript"])
 user_prompt = st.text_area("Describe the code you want me to generate:", 
